@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class CameraZoom : MonoBehaviour
 {
     private Camera cam;
@@ -23,7 +24,7 @@ public class CameraZoom : MonoBehaviour
         {
             // Вычисляем новый размер
             float newSize = cam.orthographicSize - scroll * zoomSpeed;
-            debug.Log("test");
+            Debug.Log("test");
 
             // Ограничиваем размер в заданных пределах, чтобы не "улететь" слишком далеко
             cam.orthographicSize = Mathf.Clamp(newSize, minSize, maxSize);
