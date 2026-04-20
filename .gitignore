@@ -1,0 +1,22 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Assets/AssetStoreTools*
+
+# Visual Studio
+/ExportedObj/
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+
+# Rider
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
